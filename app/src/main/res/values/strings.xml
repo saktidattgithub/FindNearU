@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindNearU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_data_input">UserDataInput</string>
+    <string name="title_activity_category_info">CategoryInfo</string>
+    <string name="title_activity_user_info">UserInfo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_slide_navigation_items">SlideNavigationItems</string>
+
+    <string-array name="planets_array">
+        <item>Restaurant</item>
+        <item>Food</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Hospital</item>
+        <item>Doctor</item>
+        <item>School</item>
+        <item>University</item>
+        <item>Shopping</item>
+        <item>Travel</item>
+        <item>Entertainment</item>
+        <item>Bar</item>
+        <item>Liquor</item>
+        <item>Car Service</item>
+        <item>Beauty</item>
+        <item>Park</item>
+        <item>Worship</item>
+        <item>Home Utility</item>
+        <item>Setting</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">MapActivity</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.search.findnearu.UserDataInput">
+
+    <TextView android:text="User Input" android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:layout_height="45dp"
+        android:textSize="40dp"
+        android:gravity="center"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id_name"
+        android:hint="Name"
+        android:paddingLeft="7dp"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="#fff"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id_locality"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="#fff"
+        android:paddingLeft="7dp"
+        android:singleLine="true"
+        android:hint="Locality"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id_city"
+        android:paddingLeft="7dp"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="#fff"
+        android:hint="City or  town"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id_state"
+        android:hint="State"
+        android:paddingLeft="7dp"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="#fff"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id_nation"
+        android:hint="Nation"
+        android:paddingLeft="7dp"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="#fff"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:id="@+id/id_submit"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Submit"/>
+</LinearLayout>
